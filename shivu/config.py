@@ -1,11 +1,11 @@
-class Config(object):
+7class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
     OWNER_ID = "6675050163"
     sudo_users = "6675050163", "6087651372","7640076990","1420481421","6645960688"
     GROUP_ID = -1002499806698
-    TOKEN = "8175826981:AAGrz7p7NiE6t1vDIKDBTdbhHrcjB7MGDAo"
+    TOKEN = "8175826981:AAFXsU_YXbm3A2eDPrd4JALYMFt6fjKCK8Y"
     mongo_url = "mongodb+srv://sunnymuduli584:<db_password>@sunny.s9g6h.mongodb.net/"
     PHOTO_URL = ["https://graph.org/file/09e83a1d89aceabd480c5-2afc46a31083fe23f2.jpg", "https://graph.org/file/0aa659508c1add9ae4c86-2b335aa5262b7b64d2.jpg"]
     SUPPORT_CHAT = "Anime_Circle_Club"
