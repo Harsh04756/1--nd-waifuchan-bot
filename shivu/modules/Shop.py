@@ -29,11 +29,11 @@ async def buy(update, context):
     rarity_coin_mapping = {
         "⚪ Common": 2000000,
         "🟣 Normal": 4000000,
-        "🔵 Medium": 8000000,
+        "🔵 Medium": 800000,
         "🟡 Legendary": 1500000,
-        "💮 Special Edition": 20000000,
-        "🔮 Limited Edition": 300000000,
-        "🎐 Celestial Beauty": 400000000000, 
+        "💮 Special Edition": 7000000,
+        "🔮 Limited Edition": 8000000,
+        "🎐 Celestial Beauty": 9000000, 
     }
         
 
@@ -68,13 +68,13 @@ application.add_handler(buy_handler)
 async def shop(update, context):
     # You can customize the message text based on your needs
     message_text = "Waifu shop To Buy Characters\n\n"
-    message_text += "⚪ Common: Ŧ20,00,000 💸\n"
-    message_text += "🟣 Normal:  Ŧ40,00,000 💸\n"
-    message_text += "🔵 Medium :  Ŧ80,00,000 💸\n"
+    message_text += "⚪ Common: Ŧ2,00,000 💸\n"
+    message_text += "🟣 Normal:  Ŧ4,00,000 💸\n"
+    message_text += "🔵 Medium :  Ŧ8,00,000 💸\n"
     message_text += "🟡 Legendary:  Ŧ15,00,000 💸\n"
-    message_text += "💮 Special Edition:  Ŧ20,000,000 💸\n"
-    message_text += "🔮 Limited Edition:  Ŧ300,000,000 💸\n"
-    message_text += "🎐 Celestial Beauty:  Ŧ4000,0000,0000 💸\n"
+    message_text += "💮 Special Edition:  Ŧ70,00,000 💸\n"
+    message_text += "🔮 Limited Edition:  Ŧ80,00,000 💸\n"
+    message_text += "🎐 Celestial Beauty:  Ŧ90,00,000 💸\n"
     message_text += "/buy <pick_id>"
     await update.message.reply_text(message_text)
 
